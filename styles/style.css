@@ -1,2 +1,164 @@
 /* место для вашего кода */
+    body {
+        font-family: Releway, sans-serif;
+        font-weight: 400;
+    }
+    
+    /* header */
 
+    header {
+        display: grid;
+        grid-template-columns: repeat(3, 1tf);
+        width: 1052px;
+        height: 105px;
+        padding-top: 92px;
+        padding-left: 24px;
+    }
+
+    .header__menu {
+        width: 391.48px;
+        height: 22px;
+        padding-top: 44px;
+        padding-left: 26.52px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.13px;
+    }
+
+    .heder__linst-list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-left: 8px;
+    }
+
+    .header__list-item .header__link {
+       
+    }
+
+    .header__list-item {
+        display: list-item;
+        list-style: circle;
+    }
+
+    .notbullit {
+        list-style: none; 
+    }
+
+    .header__link {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.13px;
+        border-bottom: 1px solid black;
+        text-decoration: none;
+    }
+
+    .header__logo {
+      
+    }
+
+    .header__adres {
+        display: grid;
+        grid-column-start: 4;
+        justify-items: end;
+        align-items: center;
+        gap: 1px 5px;
+        width: 240.52px;
+        height: 98px;   
+    }
+
+    .header__logo {
+        width: 148px;
+        height: 105px;       
+    }
+
+    .header__logo-image {
+        width: 134.11px;
+        height: 104.65px;
+    }
+
+    /* end header */
+
+    /* main */
+
+         /* cover */
+
+    .cover {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 1100px;
+        height: 757px;
+        top: 293px;
+        background: url(../images/cover.jpg) no-repeat; 
+    }
+
+    .cover__title {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        width: 1100px;
+        height: 355px;
+        padding-top: 165px;
+    }
+
+    .cover__title span {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        font-size: 100px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .aligned__text {
+        height: 115px;
+        justify-content: flex-start;
+        letter-spacing: 0.3em;
+        line-height: 115px;
+        padding-left: 50px;
+    }
+
+    .text__one {
+        flex-basis: 21%;
+    }
+
+    .aligned__text_center {
+        justify-content: center;
+        letter-spacing: 0.3em;
+        line-height: 100px; 
+    }
+
+    .text__twoo {
+        flex-basis: 123px;
+    }
+
+    .aligned__text_right {
+        justify-content: flex-end;
+        letter-spacing: 0.3em;
+        line-height: 100px;
+    }
+
+    .text__thee-one {
+        padding-right: 5px;
+    }
+
+    .text__thee {
+        flex-basis: 335px;
+    }
+
+        /* end cover */
+
+        /* cover_discription */
+
+    .cover_discription {
+        justify-content: flex-end;
+        width: 637px;
+        height: 28px;
+        padding-left: 28px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #fff;
+    }

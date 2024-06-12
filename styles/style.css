@@ -203,7 +203,6 @@
     }
 
     .lots__heading {
-        position: relative;
         margin-left: 40px;
         font-size: 40px;
         font-weight: 700;
@@ -244,7 +243,7 @@
     }
         
     .card__title {
-        font-family: Releway, sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 22px;
         font-weight: 700;
         line-height: 26.4px;
@@ -281,9 +280,10 @@
         display: block;
         margin-top: 33px;
         margin-left: 40px;
-        width: 192px;
+        width: 198px;
         height: 23px;
         font-size: 20px;
+        letter-spacing: 0.04em;
         line-height: 23.48px;
         text-decoration: none;
         border-bottom: 1px solid #000;

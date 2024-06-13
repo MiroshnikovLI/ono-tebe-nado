@@ -282,6 +282,7 @@
 
     .lots__look-more-link {
         display: block;
+        width: fit-content;
         margin-top: 33px;
         margin-left: 40px;
         font-size: 20px;
